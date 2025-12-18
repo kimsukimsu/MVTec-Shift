@@ -40,6 +40,7 @@ MVTec-Shift/
     ├── rusty/             # Oxidation & weathering (220 images)
     └── noisy/             # Sensor noise & dust (220 images)
 
+```
 # 🚀3. Installation
 
 Ensure you have Python installed (3.8+ recommended). Install the required dependencies:
@@ -86,6 +87,7 @@ python distribution_anomaly.py \
     --gen_root ./Result_MetalNut_Test \
     --output analysis_result.png
 ```
+
 
 
 
