@@ -67,6 +67,7 @@ python data_generation.py \
     --output ./Result_MetalNut \
     --mood all
 ```
+
 Key Arguments:
 
 --source: Path to the input image directory.
@@ -85,6 +86,7 @@ python distribution_anomaly.py \
     --gen_root ./Result_MetalNut_Test \
     --output analysis_result.png
 ```
+
 
 
 
