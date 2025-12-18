@@ -2,8 +2,6 @@
 
 > **Project for Introduction to Computer Vision 2025-2 (Assignment #2)**
 
-![Teaser Image](path/to/your/teaser_image.png) 
-
 ## 1. Project Overview
 
 **MVTec-Shift** is a novel synthetic dataset designed to benchmark the robustness of unsupervised anomaly detection models against environmental domain shifts.
@@ -14,7 +12,7 @@ This project utilizes **Generative AI (Stable Diffusion - InstructPix2Pix)** to 
 
 ### 📊 Dataset Comparison (Uniqueness)
 
-| Feature | [cite_start]MVTec AD (Original) [cite: 1] | **MVTec-Shift (Ours)** |
+| Feature | MVTec AD (Original) | **MVTec-Shift (Ours)** |
 | :--- | :--- | :--- |
 | **Environment** | Controlled Studio Lighting | **Real-world Factory Conditions** |
 | **Domain Shifts** | None (Clean Background) | **Dark, Greasy, Rusty, Noisy** |
@@ -87,6 +85,7 @@ python distribution_anomaly.py \
     --gen_root ./Result_MetalNut_Test \
     --output analysis_result.png
 ```
+
 
 
 
